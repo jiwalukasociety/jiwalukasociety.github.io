@@ -563,6 +563,10 @@ ul.slick-dots {
 	padding: 30px;
 }
 
+.services .service-item {
+    margin-bottom: 30px;
+}
+
 .service-item .down-content h4 {
 	font-size: 25px;
 	font-weight: 700;
