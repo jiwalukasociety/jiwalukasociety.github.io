@@ -1297,6 +1297,9 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media (max-width: 992px) {
+	.services .service-item {
+    margin-bottom: 30px;
+}
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
