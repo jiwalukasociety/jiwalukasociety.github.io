@@ -1224,7 +1224,9 @@ footer .contact-form button.filled-button:hover {
 }
 
 
-
+.services .service-item {
+    margin-bottom: 30px;
+}
 
 /* Responsive Style */
 @media (max-width: 768px) {
@@ -1297,9 +1299,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media (max-width: 992px) {
-	.services .service-item {
-    margin-bottom: 30px;
-}
+	
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
