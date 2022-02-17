@@ -1233,6 +1233,13 @@ footer .contact-form button.filled-button:hover {
 }
 
 /* Responsive Style */
+
+@media (max-width: 400px){
+    .Modern-Slider .item .img-fill {
+    height: 120vh;
+}
+}
+
 @media (max-width: 768px) {
 	.sub-header {
 		display: none;
