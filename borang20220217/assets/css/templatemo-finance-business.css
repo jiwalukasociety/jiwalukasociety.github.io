@@ -12,6 +12,12 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	font-size: 17px;
+}
+
+.form-control{
+	height: calc(3.25rem + 2px);
+    font-size: 15px;
 }
 p {
 	margin-bottom: 0px;
@@ -451,7 +457,7 @@ ul.slick-dots {
 
 .Modern-Slider .item h6 {
   margin-bottom: 15px;
-  font-size: 22px;
+  font-size: 35px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
@@ -462,7 +468,7 @@ ul.slick-dots {
 .Modern-Slider .item h4 {
   margin-bottom: 30px;
   text-transform: uppercase;
-  font-size: 44px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 2.5px;
   color:#FFF;
@@ -561,6 +567,10 @@ ul.slick-dots {
 .service-item .down-content {
 	background-color: #f7f7f7;
 	padding: 30px;
+}
+
+.services .service-item {
+    margin-bottom: 30px;
 }
 
 .service-item .down-content h4 {
@@ -760,7 +770,7 @@ ul.slick-dots {
 
 .callback-form .contact-form {
 	background-color: #a4c639;
-	padding: 60px;
+	padding: 30px;
 	border-radius: 5px;
 	text-align: center;
 }
@@ -1224,9 +1234,18 @@ footer .contact-form button.filled-button:hover {
 }
 
 
-
+.services .service-item {
+    margin-bottom: 30px;
+}
 
 /* Responsive Style */
+
+@media (max-width: 400px){
+    .Modern-Slider .item .img-fill {
+    height: 120vh;
+}
+}
+
 @media (max-width: 768px) {
 	.sub-header {
 		display: none;
@@ -1297,6 +1316,9 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media (max-width: 992px) {
+	.services .service-item {
+    margin-bottom: 30px;
+}
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
